@@ -1,0 +1,55 @@
+.container {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding-top: 110px;
+    margin: 0, auto;
+    font-family: arial;
+}
+
+.logo {
+    margin-top: 110px;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 500px;
+    height: 37px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    color: black;
+    padding-left: 15px;
+    outline: none;
+}
+
+.buttons {
+    margin-bottom: 60px;
+}
+
+button {
+    background-color: #f2f2f2;
+    border: none;
+    padding: 11px;
+    margin: 10px;
+    border-radius: 3px;
+}
+
+button:focus{
+    outline: none;
+}
+button:hover {
+    background-color: #cac7c7;;
+}
+
+p {
+    font-size: small;
+    color: rgba(0, 0, 255, 0.918);
+}
+input:focus {
+    outline: none;
+    border: 1.5px solid lightgray;
+}
+.google-logo{
+    width: 300px;
+}
