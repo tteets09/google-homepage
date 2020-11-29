@@ -1,3 +1,39 @@
+/*Navigation Bar and Footer*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 13px;
+    color: rgb(63, 62, 62);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 99.5%;
+}
+
+#footer a{
+margin: 10px;
+}
+/*Container for search bar, logo, buttons, and text*/
 .container {
     text-align: center;
     width: 100%;
@@ -7,11 +43,17 @@
     font-family: arial;
 }
 
+/*Logo*/
 .logo {
     margin-top: 110px;
     margin-bottom: 20px;
 }
 
+.google-logo{
+    width: 300px;
+}
+
+/*Search Bar*/
 input{
     width: 500px;
     height: 37px;
@@ -23,6 +65,12 @@ input{
     outline: none;
 }
 
+input:focus {
+    outline: none;
+    border: 1.5px solid lightgray;
+}
+
+/*Buttons*/
 .buttons {
     margin-bottom: 60px;
 }
@@ -42,14 +90,8 @@ button:hover {
     background-color: #cac7c7;;
 }
 
+/*Text Below Buttons*/
 p {
     font-size: small;
     color: rgba(0, 0, 255, 0.918);
-}
-input:focus {
-    outline: none;
-    border: 1.5px solid lightgray;
-}
-.google-logo{
-    width: 300px;
 }
