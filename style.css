@@ -28,6 +28,7 @@ a:hover {
     position: absolute;
     bottom: 0;
     width: 99.5%;
+    background-color: #f2f2f2;
 }
 
 #footer a{
